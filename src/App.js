@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path='/' exact component={HeroSection} />
+          <Route path='/react-example-website' exact component={HeroSection} />
           <Route path='/products'  component={Products} />
           <Route path='/contact'  component={Contact} />
           <Route path='/about'  component={About} />
