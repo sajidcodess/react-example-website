@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.products {
+    background: url('./imgs/card-img2.jpg') no-repeat;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    gap: 1rem;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.contact {
+    background: url('./imgs/card-img1.jpg') no-repeat;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    gap: 1rem;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.about {
+    background: url('./imgs/pexels-lisa-1083822.jpg') no-repeat;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    gap: 1rem;
+    color: #fff;
+    font-size: 4rem;
+}
+

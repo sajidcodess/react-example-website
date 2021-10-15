@@ -1,0 +1,21 @@
+.hero {
+    background: url('../imgs/pexels-lisa-1083822.jpg') no-repeat;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.btns {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}

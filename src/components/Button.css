@@ -1,0 +1,30 @@
+button {
+    padding: 1rem 3rem;
+    width: max-content;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.btn-filled {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #242222;
+}
+
+.btn-filled:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-outline:hover {
+    background-color: #fff;
+    color: #242222;
+}
